@@ -45,51 +45,48 @@
   </header>
   <main>
 
-    <!-- Configuración del widget -->
-    <script id="chat-config" type="text/javascript">
-      window.ChatWidgetConfig = {
-        webhook: {
-            url: 'https://paneln8n.jelge.vip/webhook/67ece78a-b464-4665-b96c-6a37009a7650/chat',
-            route: 'general'
-        },
-branding: {
-    logo: 'https://raw.githubusercontent.com/Jelgezabal/archivosinternet/main/O1AI-only1ai.png', // URL directa
-            name: '', // EF & Asesores
-          welcomeText: "¡Hola! 👋 he modificado este mensaje.",
-          responseTimeText: "adasdadasdasdadsada 😉",
-          poweredBy: { text: "Only1AI", link: "https://only1facts.com" },
-          greetingMessage: "<strong>📣 hola 👋</strong><br/>nuevo mensaje",
-          startMessage: "Hola, ¿podemos cambiar este mensaje?"
-        },
-        style: {
-          primaryColor: "#FF5722",
-          secondaryColor: "#FF9800",
-          backgroundColor: "#ffffff",
-          fontColor: "#222222",
-          primaryShadow: "rgba(255, 87, 34, 0.3)",
-          primaryBorder: "rgba(255, 87, 34, 0.2)",
-          position: "right"
-        }
-      };
-    </script>
+   <!-- Configuración del widget -->
+<script id="chat-config" type="text/javascript">
+  window.ChatWidgetConfig = {
+    webhook: {
+      url: 'https://paneln8n.jelge.vip/webhook/67ece78a-b464-4665-b96c-6a37009a7650/chat',
+      route: 'general'
+    },
+    branding: {
+      logo: 'https://raw.githubusercontent.com/Jelgezabal/archivosinternet/main/O1AI-only1ai.png',
+      name: 'Only1AI',
+      welcomeText: "¡Hola! 👋 ¿Cómo te puedo ayudar?",
+      responseTimeText: "Te responderé en unos segundos 😉",
+      poweredBy: { text: "Only1AI", link: "https://only1facts.com" },
+      greetingMessage: "<strong>📣 hola 👋</strong><br/>nuevo mensaje",
+      startMessage: "Hola, ¿podemos cambiar este mensaje?"
+    },
+    style: {
+      primaryColor: "#854fff",
+      secondaryColor: "#6b3fd4",
+      backgroundColor: "#ffffff",
+      fontColor: "#222222",
+      primaryShadow: "rgba(255, 87, 34, 0.3)",
+      primaryBorder: "rgba(255, 87, 34, 0.2)",
+      position: "right"
+    }
+  };
+</script>
 
-    <!-- Estilos básicos opcionales -->
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        padding: 2rem;
-        margin: 0;
-        background: #f5f5f5;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Página de prueba del chat</h1>
-    <p>Este es un ejemplo de integración del widget de chat.</p>
+<!-- Estilos básicos opcionales -->
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    margin: 0;
+    background: #f5f5f5;
+  }
+</style>
 
-    <!-- Chat widget -->
+<!-- Chat Widget -->
 <chat-widget></chat-widget>
-    <!-- Script del componente -->
+
+<!-- Script del componente -->
 <script src="https://jelgezabal.github.io/Chatbot-Widget/chat-widget.js"></script>
     </div>
   </main>
